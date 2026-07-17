@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Color Blocks Game</title>
+	<link rel="shortcut icon" href="icon.png" type="image/png">
+	<link rel="stylesheet" href="style.css">
+	<script src="main.js" defer></script>
+</head>
+<body>
+
+	<div class="controls">
+		<button data-size='3'>3 x 3</button>
+		<button data-size='4'>4 x 4</button>
+		<button data-size='5'>5 x 5</button>
+	</div>
+
+	<div class="timer-panel">
+		<div>Current: <span id='timer'>00:00:00</span></div>
+		<div>Best: <span id='record'>-:-:-</span></div>
+	</div>
+	
+	<div class="container">
+	
+	</div>
+
+	<div class="modal">
+		<h1>Победа!!!!</h1>
+		<p class="modal-record">Рекорд: <span></span></p>
+		<p class="modal-time">Ваше время: <span></span></p>
+		<p class="new-record-mess">Поздравляю вы обновили рекорд!</p>
+		<p><button class="modal-close-btn">Close</button></p>
+	</div>
+
+</body>
+</html>
