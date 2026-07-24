@@ -299,7 +299,7 @@ function checkWins() {
 			records[size] = timer
 			modalRecordMess.style.display = 'block'
 			
-			localStorage.setItem('records', JSON.strigify(records))
+			localStorage.setItem('records', JSON.stringify(records))
 
 			recordElem.textContent = formatTime(record)
 		}
